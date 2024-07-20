@@ -1,0 +1,489 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0px;
+}
+
+/* *navbar-respo */
+.nav-bar-btn{
+    display: none;
+}
+.fa-bars{
+    font-size: 30px;
+}
+.child-show-div{
+    display: block;
+}
+.child-show-div li{
+    display: block;
+    padding-bottom: 15px;
+}
+.child-show-div{
+    text-align: center;
+}
+.child-show-div a{
+    text-decoration: none;
+    color: #747474;
+    padding-right: 25px;
+}
+.child-show-div{
+    padding: 30px 0px;
+}
+.child-show-div{
+    display: none;
+}
+
+@media (max-width:1199px) and (min-width:01px){
+   .nav-bar-btn{
+    display: block;
+   }
+   .child-nav-div{
+    display: none;
+   }
+   .main-nav-div{
+    display: flex;
+    justify-content: end!important;
+   }
+}
+/* *navbar-respo */
+
+
+
+
+/* common class */
+.cmn-gap{
+    padding: 50px 0px;
+}
+.common{
+   margin: auto;
+   width: 100%;
+    max-width: 1140px
+}
+
+@media (max-width:1199px) and (min-width:991px){
+    .common{
+        max-width: 940px;
+        margin: auto; 
+    }  
+}
+
+@media (max-width:991px) and (min-width:768px){
+    .common{
+        max-width: 740px;
+        margin: auto;
+    }
+}
+
+@media (max-width:768px) and (min-width:576px){
+    .common{
+        max-width: 540px;
+        margin: auto;
+    }
+}
+
+@media (max-width:576px) and (min-width:01px){
+    .common{
+        padding: 0px 15px;
+        width: 100%;
+      
+    }  
+} 
+
+.cmn-btn{
+    padding: 18px 18px;
+    background-color: #009245;
+    color: white!important;
+    border-radius: 5px;
+    text-decoration: none;
+    
+}
+
+.cmn-span{
+    color: #244886;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.cmn-head{
+    color: #222222;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+}
+/* common class */
+
+.main-nav-div{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.child-nav-div img{
+    width: 157px;
+    height: 52px;
+}
+.child-nav-div span{
+    color: black;
+}
+.child-nav-div li{
+    display: inline;
+}
+.child-nav-div a{
+    text-decoration: none;
+    color: #747474;
+    padding-right: 25px;
+}
+.btn span{
+    color: antiquewhite;
+}
+
+/* .banner-sec */
+.banner-sec{
+    background-image: url("../image/banner\ image.svg");
+    width: 100%;
+    min-height: 700px;
+    background-size: cover;
+}
+.main-banner{
+    display: flex;
+    align-items: center;
+    min-height: 700px;
+}
+.banner-div{
+    width: 43%;
+    color: white;
+}
+
+.banner-div p{
+    font-size: 16px;
+    padding-bottom: 50px;
+    color: white!important;
+}
+
+.banner-div h1{
+    font-size: 53px;
+    line-height: 50px;
+    padding-top: 15px;
+}
+.banner-div a{
+    text-decoration: none;
+    padding-top: 20px;
+}
+
+/* logo section */
+
+.main-logo-div{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.child-logo-div{
+    padding-bottom: 20px;
+}
+
+/* abput section */
+
+@media (max-width:1199px) and (min-width:992px){
+    .child-about-div{
+        width: 100%!important;
+        text-align: center;
+    }
+    .child-card-div{
+        width: 29%!important;
+    }
+    .child-service-div{
+        width: 100%!important;
+        text-align: center;
+    }
+    .footer-child-div{
+        width: 21%!important;
+        padding-bottom: 50px;
+    }
+    .child-form{
+        width: 100%;
+    }
+    .child-logo-div{
+        width: 20%;
+    }
+}
+
+  
+@media (max-width:992px) and (min-width:768px){
+    .child-card-div{
+        width: 43%!important;
+    }
+    .footer-child-div{
+        width: 31%!important;
+    }
+    .child-about-div{
+        width: 100%!important;
+        text-align: center;
+    }
+    .child-service-div{
+        width: 100%!important;
+        text-align: center;
+    }
+    .child-form{
+        width: 100%;
+    }
+    .child-logo-div{
+        width: 30%;
+    }
+}
+@media (max-width:768px) and (min-width:576px){
+    .child-about-div{
+        width: 100%!important;
+    }
+    .footer-child-div{
+        width: 48%!important;
+    }
+    .child-card-div{
+        width: 100%!important;
+    }
+    .child-about-div{
+        width: 100%!important;
+        text-align: center;
+    }
+    .child-service-div{
+        width: 100%!important;
+        text-align: center;
+    }
+    .child-form{
+        width: 100%;
+    }
+    .child-logo-div{
+        width: 43%;
+    }
+}
+@media (max-width:576px) and (min-width:01px){
+    .child-card-div{
+        width: 100%!important;
+    }
+    .child-service-div{
+        width: 100%!important;
+        text-align: center;
+    }
+    .footer-child-div{
+        width: 100%!important;
+    }
+    .child-about-div{
+        width: 100%!important;
+        text-align: center;
+    }
+    .child-form{
+        width: 100%;
+    }
+    .child-logo-div{
+        width: 100%;
+        text-align: center;
+    }
+} 
+
+ .main-about-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding-top: 100px; */
+    flex-wrap: wrap;
+}
+.child-about-div{
+    width: 47%;
+}
+.cmn-para{
+    padding-top: 20px;
+    line-height: 30px;
+    color: #747474;
+    font-family: "Mukta Malar", sans-serif;
+}
+.child-about-div img{
+    width: 100%;
+}
+.child-about-div h2{
+    padding-top: 20px;
+}
+.child-about-div p{
+    padding-bottom: 40px;
+}
+
+/* card section */
+.card-sec{
+    background-color: #EAEFF5; 
+    /* height: 850px; */
+}
+
+.main-card1{
+    /* padding-top: 50px;
+    margin-top: 50px; */
+    text-align: center;
+    margin-bottom: 50px;
+}
+.main-card1 h2{
+    padding-top: 30px;
+}
+
+.main-card-div{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px; ;
+    flex-wrap: wrap;
+}
+.main-card-div img{
+    width: 100%;
+}
+.child-card-div{
+   margin-bottom: 30px;
+    width: 30%;
+    background-color:#FFFFFF;
+    padding: 10px 10px 20px 10px;
+    border-radius:10px;
+}
+.child-card-div h4{
+    font-size: 22px;   
+    padding-top: 20px;
+    font-family: "Mukta Malar", sans-serif;
+}
+.child-card-div1{
+    padding-top: 50px;
+}
+
+/* *service-sec */
+
+.main-service-div{
+    /* padding-top: 80px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  
+}
+.child-service-div{
+    width: 48%;
+    padding-bottom: 50px;
+}
+.child-service-div img{
+    width: 100%;
+}
+.child-service-div h2{
+    padding-top: 30px;
+}
+.child-service-div p{
+    padding-bottom: 50px;
+}
+
+/* *feedback section */
+.feedback{
+    background-color: #F7FAFF;
+   
+}
+.main-feedback{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* padding-top: 150px; */
+}
+.child-feedback{
+    width: 60%;
+}
+
+
+/* *map-section */
+.main-map{
+    display: flex;
+    justify-content: end;
+}
+.map{
+    width: 100%;
+    height: 686px;
+}
+
+.child-form{
+    height: 566px;
+    width: 476px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    margin-top: -645px;
+    padding: 30px 50px 0px 50px;
+    border-radius: 8px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.child-form input{
+    padding: 20px 300px 20px 10px; 
+    font-size: 14px;
+    background-color:#F9F9F9;
+    border: 0px;
+}
+.message{
+    padding: 20px 300px 60px 10px;
+}
+.child-form a{
+    text-decoration: none;
+    color: white;
+}
+.Submit-btn{
+    padding: 10px 15px 10px 15px;
+    background-color: #009245;
+    border-radius: 5px;
+}
+
+
+/* *footer section */
+.footer-sec{
+    background-color: #17315f;
+    /* height: 403px; */
+}
+.footer-main-div{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   padding-bottom: 50px;
+}
+.footer-child-div{
+    width: 21%;
+    text-align: center;
+}
+.footer-child-div a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+.footer-child-div p{
+    padding-bottom: 20px;
+    color: white;
+    font-size: 18px;
+   
+}
+.footer-child-div li{
+    display: block;
+    line-height: 35px;
+
+}
+
+.child-footer1{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    flex-wrap: wrap;
+}
+.footer-child-div2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+   
+}
+.footer-child-div2 li{
+display: inline;
+}
+hr{
+    border: 1px solid white;
+    opacity: 10%;
+    
+}
+
+
